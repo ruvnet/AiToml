@@ -14,6 +14,15 @@ The aiTWS is different from existing workflow specifications by providing essent
 
 The TOML format is used for the aiTWS specification due to its simplicity, readability, and support for nested data structures. TOML is also designed to be easy to parse, making it an ideal format for workflow definitions.
 
+
+## Regenerative & Autonomous Applications 
+
+A regenerative workflow using an autonomous application is a type of workflow that uses machine learning models to improve over time. In this workflow, the machine learning model is trained on data from previous iterations of the workflow, and the resulting model is used to generate new data for the next iteration.
+
+For example, in a natural language processing workflow, the machine learning model could be trained on text data from previous iterations of the workflow. The resulting model could then be used to generate new text data for the next iteration, which is then used to train the model again.
+
+This regenerative workflow allows the machine learning model to continually improve and adapt to new data, resulting in more accurate and effective models over time. The autonomous application handles the data generation, training, and evaluation processes automatically, freeing up human operators to focus on other aspects of the workflow.
+
 ## Specification breakdown
 
 The aiTWS specification consists of the following sections:
