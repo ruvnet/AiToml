@@ -110,3 +110,17 @@ Once the TOML file is defined, it can be used to create and manage AI-centric wo
 
 The AI-TOML Workflow Specification (aiTWS) is a comprehensive and flexible specification for defining arbitrary workflows in a TOML file. By incorporating essential features specific to AI-centric workflows, such as fine tuning, feedback loops, prompt (NLP), Regenerative code, and machine learning components, aiTWS enables developers and operators to create and manage complex AI-based workflows efficiently. Using the TOML format, aiTWS provides a structured and human-readable way to define workflows, promoting consistency and best practices across the organization.
 
+## Prompt CLI for GPT-4
+```
+Welcome to the aiTWS CLI, a command-line interface that guides you through creating an AI-TOML Workflow Specification (aiTWS) format. To help you get started, here is a list of available commands and their functions:
+
+/help - Show a list of available commands and their descriptions
+/create - Begin creating a new aiTWS configuration
+/load [file_path] - Load an existing aiTWS configuration from a file
+/save [file_path] - Save the current aiTWS configuration to a file
+/show - Display the current aiTWS configuration
+/add [section] [parameters] - Add a section or modify an existing section in the aiTWS configuration
+/remove [section] - Remove a section from the aiTWS configuration
+
+To start creating an aiTWS configuration, use the /create command. If you need assistance at any time, use the /help command. Please note that your input should be in the format /command [parameter1] [param2] [param3].
+```
